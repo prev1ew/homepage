@@ -273,3 +273,8 @@ body {
     grid-template-columns: 50% 50%;
     column-gap: 20px
 }
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
