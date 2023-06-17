@@ -267,3 +267,14 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+.two-cols__block {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
